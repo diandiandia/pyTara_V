@@ -1,0 +1,18 @@
+# 敏感配置文件
+src/config/config.py
+files/
+tmp/
+logs/
+.venv/
+
+# 忽略所有Python缓存文件和目录
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 忽略可能出现在其他位置的日志文件
+*.log
+*.log.*
+logs/
+logs.*
